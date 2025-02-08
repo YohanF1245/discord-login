@@ -1,10 +1,11 @@
 <!-- Page d'accueil -->
 <script lang="ts">
   import { browser } from '$app/environment';
+  import { DISCORD_AUTH_URL } from '$lib/config';
   
   const discordLogin = () => {
     if (browser) {
-      window.location.href = 'http://localhost:3000/auth/discord';
+      window.location.href = DISCORD_AUTH_URL;
     }
   };
 </script>

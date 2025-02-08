@@ -1,10 +1,10 @@
 <!-- Layout principal -->
 <script lang="ts">
   import '../app.css';
-  import { SvelteToast } from 'svelte-french-toast';
+  import { Toaster } from 'svelte-french-toast';
 </script>
 
-<SvelteToast />
+<Toaster />
 
 <div class="h-full">
   <slot />
